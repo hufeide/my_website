@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gamma</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: var(--color-bg);
+            color: var(--color-text-primary);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .project-preview {
+            width: 100%;
+            max-width: 800px;
+            padding: var(--spacing-lg);
+        }
+        .project-preview h2 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+        }
+        .project-preview p {
+            color: var(--color-text-secondary);
+            line-height: 1.6;
+            margin-bottom: var(--spacing-lg);
+        }
+        .project-preview img {
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-md);
+            margin-bottom: var(--spacing-lg);
+        }
+        .project-preview .back-link {
+            display: inline-block;
+            color: var(--color-accent);
+            text-decoration: none;
+            margin-top: var(--spacing-lg);
+        }
+        .project-preview .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="project-preview">
+        <h2>Project Gamma</h2>
+        <p>This is a placeholder for the actual project preview. Replace this HTML file with your actual project showcase page.</p>
+        <img src="https://via.placeholder.com/800x400/1a1a1a/ff6b35?text=Project+Gamma+Preview" alt="Project Gamma Preview">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+    </div>
+</body>
+</html>
